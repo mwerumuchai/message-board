@@ -1,9 +1,11 @@
-{{#link-to 'category' category.id}} {{category.categoryname}}{{/link-to}}
-by {{category.author}}
-<img src= {{category.image}} id="img">
-
-<ul>
-  <li>
-    <h3>{{category.question}}</h3>
-  </li>
-</ul>
+<div class="col-md-6" id="picture">
+  {{#link-to 'category' category.id}} {{category.categoryname}}{{/link-to}}
+  by {{category.author}}
+<img src= {{category.image}} id="img"></div>
+<div class="col-md-6" id="question">
+  <ul>
+    <li>
+      <h3>{{category.question}}</h3>
+    </li>
+  </ul>
+</div>

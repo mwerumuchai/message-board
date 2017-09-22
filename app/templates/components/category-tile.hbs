@@ -1,11 +1,9 @@
 <div class="col-md-6" id="picture">
-  {{#link-to 'category' category.id}} {{category.categoryname}}{{/link-to}}
-  by {{category.author}}
-<img src= {{category.image}} id="img"></div>
-<div class="col-md-6" id="question">
-  <ul>
-    <li>
-      <h3>{{category.question}}</h3>
+  <h2>{{#link-to 'category' category.id}} {{category.categoryname}}{{/link-to}}</h2> by {{category.author}}
+      <ul>
+        <li><h4>
+      {{category.question}}</h4>
+      {{update-category category=category update="update"}}
     </li>
   </ul>
 </div>

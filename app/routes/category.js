@@ -15,9 +15,10 @@ export default Ember.Route.extend({
       this.transitionTo('');
     },
       saveAnswer(params) {
+        debugger;
       var newAnswer = this.store.createRecord('answer', params);
       var category = params.category;
-      category.get('answer').addObject(newAnswer);
+      category.get('answers').addObject(newAnswer);
       newAnswer.save().then(function() {
         return category.save();
       });

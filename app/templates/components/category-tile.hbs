@@ -1,2 +1,9 @@
-  {{#link-to 'category' category.id}} {{category.categoryname}} {{category.author}} {{category.question}}{{/link-to}}
-  <p><img src= {{category.image}} id="img"></p>
+{{#link-to 'category' category.id}} {{category.categoryname}}{{/link-to}}
+by {{category.author}}
+<img src= {{category.image}} id="img">
+
+<ul>
+  <li>
+    <h3>{{category.question}}</h3>
+  </li>
+</ul>

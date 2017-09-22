@@ -1,20 +1,11 @@
 <h1>QUESTION AND ANSWER</h1> Choose a category:
 <div class="list">
-  <div class="col-md-3">
-    <ol>
-      {{#each model as |category|}}
-        <li>
-          {{category.categoryname}}
-        </li>
-      {{/each}}
-    </ol>
-  </div>
+
+  {{#each model as |category|}}
+    {{category-tile category=category}}
+  {{/each}}
 </div>
-<!--<p>HISTORY</p>
-<p>MUSIC</p>
-<p>SPORTS</p>
-<p>ART</p>
-<p>MOVIE</p>-->
+
 
 {{#link-to 'about'}}About{{/link-to}}
 {{#link-to 'contact'}}Contacts{{/link-to}}

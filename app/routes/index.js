@@ -9,10 +9,6 @@ export default Ember.Route.extend({
       var newCategory = this.store.createRecord('category', params);
       newCategory.save();
       this.transitionTo('index');
-    },
-    update(category, params) {
-      category.save();
-      this.transitionTo('index');
     }
   }
 });

@@ -1,14 +1,13 @@
-<h1>QUESTION AND ANSWER</h1>
-Choose a category:
+<h1>QUESTION AND ANSWER</h1> Choose a category:
 <div class="list">
   <div class="col-md-3">
     <ol>
-    {{#each model as |category|}}
-    <li>
-    {{category.categoryname}}
-  </li>
-    {{/each}}
-  </ol>
+      {{#each model as |category|}}
+        <li>
+          {{category.categoryname}}
+        </li>
+      {{/each}}
+    </ol>
   </div>
 </div>
 <!--<p>HISTORY</p>

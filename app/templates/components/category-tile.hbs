@@ -1,4 +1,2 @@
-<div class="container">
-  {{category.categoryname}}
+  {{#link-to 'category' category.id}}{{category.categoryname}}{{/link-to}}
   <p><img src= {{category.image}} id="img"></p>
-</div>

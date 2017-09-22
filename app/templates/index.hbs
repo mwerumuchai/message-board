@@ -1,11 +1,3 @@
-<h1>QUESTION AND ANSWER</h1> Choose a category:
-<div class="list">
-
-  {{#each model as |category|}}
+{{#each model as |category|}}
     {{category-tile category=category}}
-  {{/each}}
-</div>
-
-
-{{#link-to 'about'}}About{{/link-to}}
-{{#link-to 'contact'}}Contacts{{/link-to}}
+{{/each}}

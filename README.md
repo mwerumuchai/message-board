@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # message-board
 
 This README outlines the details of collaborating on this Ember application.
@@ -48,3 +49,6 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+=======
+# message-board
+>>>>>>> ef85c7a28f0af827634008efe8fe9eeb62ae9318

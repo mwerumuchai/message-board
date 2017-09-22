@@ -29,5 +29,9 @@
     "author": "Mweru Muchai",
     "question": "In the movie 'The Wizard of OZ', what did the scarecrow want from the wizard?",
     "image": "http://trivia.fyi/sites/default/files/movie-trivia1.png"
-  }]
+  }],
+  "answers":[{
+    "content":"Rolling Stones",
+    "user":"Kim Philips"
+    }]
 }

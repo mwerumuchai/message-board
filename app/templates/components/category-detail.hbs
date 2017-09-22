@@ -1,1 +1,7 @@
-<p><img src={{model.image}}></p>
+<p><img src={{category.image}}></p>
+<h4>Answer here</h4>
+<ul>
+  {{#each category.answers as |answer|}}
+  {{answer-tile answer=answer}}
+  {{/each}}
+</ul>

@@ -1,9 +1,9 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  addNewCategory: false,
+  addNewCategor: false,
   actions: {
-    categorylFormShow() {
+    categoryFormShow() {
       this.set('addNewCategory', true);
     },
     saveCategory1() {

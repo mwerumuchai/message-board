@@ -1,5 +1,13 @@
-{{#each model as |category|}}
-    {{category-tile category=category update="update"}}
+{{#each model.categories as |category|}}
+  {{category-tile category=category update="update"}}
 {{/each}}
 
 {{new-category saveCategory2="saveCategory3"}}
+{{#each model.answers as |answer|}}
+  {{answer.content}} --by {{answer.user}}
+{{/each}}
+
+<footer>
+  {{#link-to 'about'}}About{{/link-to}}
+  {{#link-to 'contact'}}Contacts{{/link-to}}
+</footer>

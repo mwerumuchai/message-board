@@ -18,10 +18,10 @@ module.exports = function(environment) {
       }
     },
     firebase: {
-    apiKey: 'AIzaSyDpqm6ceVPjhFjuEg9CpJgnraURcdJrzgE',
-    authDomain: 'message-board-d5dcc.firebaseapp.com',
-    databaseURL: 'https://message-board-d5dcc.firebaseio.com',
-    storageBucket: 'message-board-d5dcc.appspot.com',
+    apiKey: 'AIzaSyDimp4APx6kQHMu9dH4pCM9GFvgiXFfk2g',
+    authDomain: 'message-boards-74547.firebaseapp.com',
+    databaseURL: 'https://message-boards-74547.firebaseio.com',
+    storageBucket: '',
   },
 
     APP: {

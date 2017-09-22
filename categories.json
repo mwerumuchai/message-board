@@ -1,0 +1,21 @@
+{
+  "categories": [{
+    "categoryname": "History",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Albert_Einstein_Head.jpg"
+  }, {
+    "categoryname": "Animal",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/66/Polar_Bear_-_Alaska_%28cropped%29.jpg"
+  }, {
+    "categoryname": "Art",
+    "image": "https://i.pinimg.com/564x/27/ab/73/27ab732d2903d4dc5ab8db9d79338999.jpg"
+  }, {
+    "categoryname": "Music",
+    "image": "https://i.pinimg.com/564x/43/a2/88/43a288d4f2dbf296e55bfcc3125e6d17.jpg"
+  }, {
+    "categoryname": "Sports",
+    "image": "https://i.pinimg.com/564x/07/76/21/0776219cbfa27a5209b284bb7011ccd7.jpg"
+  }, {
+    "categoryname": "Movie",
+    "image": "http://trivia.fyi/sites/default/files/movie-trivia1.png"
+  }]
+}

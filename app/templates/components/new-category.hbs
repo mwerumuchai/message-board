@@ -1,19 +1,21 @@
-{{#if addNewCategory}}
-  <h1>More Questions</h1>
-  <div>
-    <form>
-      <div class="form-group">
-        <label for="question">Question</label>
-        {{input value=question id="question"}}
-      </div>
-
-      <div class="form-group">
-        <label for="user">Author</label>
-        {{input value=author id="author"}}
-      </div>
-      <button {{action 'saveCategory1'}}>Save</button>
-    </form>
-  </div>
-{{else}}
-  <button {{action 'categoryFormShow'}}>New question</button>
-{{/if}}
+<div class="row5">
+  {{#if addNewCategory}}
+    <h1>More Questions</h1>
+    <div>
+      <form>
+        <div class="form-group">
+          <label for="catergoryname">Category</label> {{input value=catergoryname id="catergoryname"}}
+        </div>
+        <div class="form-group">
+          <label for="user">Author</label> {{input value=author id="author"}}
+        </div>
+        <div class="form-group">
+          <label for="question">Question</label> {{input value=question id="question"}}
+        </div>
+        <button type="button" class="btn btn-info" {{action 'saveCategory1'}}>Save</button>
+      </form>
+    </div>
+  {{else}}
+    <button type="button" class="btn btn-info" {{action 'categoryFormShow'}}>New question</button>
+  {{/if}}
+</div>

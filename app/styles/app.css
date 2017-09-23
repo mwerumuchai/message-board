@@ -31,7 +31,7 @@ body {
 }
 
 #row3 {
-  background-color: #702451;
+  background-color: #ce0d41;
   height: 50px;
   width: 100%;
 }
@@ -43,5 +43,36 @@ body {
 #row4 {
   background-color: #fff;
   height: 150px;
+  width: 100%;
+}
+
+.container-fluid {
+  background-color: #ce0d41;
+}
+
+.jumbotron {
+  align-content: center;
+  color: #ce0d41;
+  font-family: 'Satisfy', cursive;
+}
+
+
+/*.favoriteQsArea {
+  margin-bottom: 70px
+}*/
+
+#aboutus {
+  min-height: 10vh;
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 10px 30px 30px 40px;
+  width: 100%;
+}
+
+#contactus {
+  min-height: 10vh;
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 10px 30px 30px 40px;
   width: 100%;
 }

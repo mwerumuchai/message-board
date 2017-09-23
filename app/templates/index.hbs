@@ -1,8 +1,7 @@
+<div>
+  <h3 id="row2"><strong>Choose a category:</strong></h3></div>
 {{#each model.categories as |category|}}
   {{category-tile category=category update="update"}}
 {{/each}}
 
 {{new-category saveCategory2="saveCategory3"}}
-{{#each model.answers as |answer|}}
-  {{answer.content}} --by {{answer.user}}
-{{/each}}

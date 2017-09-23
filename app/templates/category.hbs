@@ -1,10 +1,12 @@
-<h4>Test your knowledge in History</h4>
-
-
 <h3>{{model.categoryname}} by {{model.author}}</h3>
-<ol>
-  <li><h5>{{model.question}}</h5></li>
-</ol>
-{{update-category category=model update="update"}}
-{{category-detail category=model}}
-{{new-answer saveAnswer="saveAnswer" category=model}}
+
+
+
+<div class="container" id="question">
+  <ol>
+    <li>
+      <h5>{{model.question}}</h5></li>
+  </ol>
+  {{update-category category=model update="update"}}
+</div>
+ {{category-detail category=model}} {{new-answer saveAnswer="saveAnswer" category=model}}

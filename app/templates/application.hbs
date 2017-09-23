@@ -1,16 +1,26 @@
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+      <li class="active">{{#link-to 'index'}}Home{{/link-to}}</li>
+      <li>{{#link-to 'about'}}About{{/link-to}}</li>
+      <li>{{#link-to 'contact'}}Contacts{{/link-to}}</li>
+    </ul>
+  </div>
+</nav>
 <div class="container">
   <header class="jumbotron" id="header">
     <h1>TRIVIA Q&A</h1>
   </header>
-  <h3><strong>Choose a category:</strong></h3>
 </div>
+<div>
+  <h3 id="row2"><strong>Choose a category:</strong></h3></div>
 <hr>
 <div class="container" id="list">
   {{outlet}}
   <hr>
-  
+
 </div>
-<div class="container">
+<div id="row3">
   <footer>
     {{#link-to 'about'}}About{{/link-to}}
     {{#link-to 'contact'}}Contacts{{/link-to}}

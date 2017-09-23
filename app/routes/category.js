@@ -15,7 +15,6 @@ export default Ember.Route.extend({
       this.transitionTo('');
     },
       saveAnswer(params) {
-        debugger;
       var newAnswer = this.store.createRecord('answer', params);
       var category = params.category;
       category.get('answers').addObject(newAnswer);

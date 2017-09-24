@@ -1,7 +1,6 @@
 # message-board
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Welcome to TRIVIA Q&A. Our quizes provide great information and important facts for kids,teens and adults alike. Test your knowledge!!!
 
 ## Prerequisites
 

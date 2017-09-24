@@ -27,7 +27,7 @@ body {
 
 #more {
   min-height: 10vh;
-  background-color: #000;
+  background-color: #ce0d41;
   color: #fff;
   margin-bottom: 10px;
   padding: 10px 30px 30px 40px;
@@ -122,7 +122,7 @@ body {
 
 .new-answer {
   min-height: 10vh;
-  background-color: #bad9fd;
+  background-color: #4d1938;
   margin-bottom: 10px;
   padding: 10px 20px 20px 30px;
   width: 100%;

@@ -16,18 +16,23 @@ body {
 
 #question {
   min-height: 10vh;
-  background-color: #fff;
+  background-color: #07d3ed;
   margin-bottom: 10px;
   padding: 10px 30px 30px 40px;
   width: 100%;
+  border: 1px solid black;
+  border-radius: 24px;
 }
 
 .row {
-  min-height: 10vh;
-  background-color: #fff;
-  margin-bottom: 10px;
-  padding: 10px 30px 30px 40px;
+  min-height: 5vh;
+  background-color: #9cc9fc;
+  margin-bottom: 5px;
+  padding: 10px 20px 20px 30px;
   width: 100%;
+  padding-top: 15px;
+  border: 1px solid black;
+  border-radius: 24px;
 }
 
 #row3 {
@@ -41,9 +46,32 @@ body {
 }
 
 #row4 {
-  background-color: #fff;
+  background-color: #000;
   height: 150px;
   width: 100%;
+  color: #fff;
+}
+
+.row6 {
+  min-height: 5vh;
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 10px 30px 30px 40px;
+  width: 100%;
+  padding-top: 15px:
+}
+
+.row5 {
+  min-height: 10vh;
+  background-color: #4d1938;
+  margin-bottom: 10px;
+  padding: 10px 30px 30px 40px;
+  width: 100%;
+  padding-top: 15px:
+}
+
+#qn {
+  color: #f1d5e6;
 }
 
 .container-fluid {
@@ -75,4 +103,14 @@ body {
   margin-bottom: 10px;
   padding: 10px 30px 30px 40px;
   width: 100%;
+}
+
+.new-answer {
+  min-height: 10vh;
+  background-color: #bad9fd;
+  margin-bottom: 10px;
+  padding: 10px 20px 20px 30px;
+  width: 100%;
+  padding-top: 15px: border: 1px solid black;
+  border-radius: 24px;
 }

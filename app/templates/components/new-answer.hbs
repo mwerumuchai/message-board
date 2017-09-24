@@ -1,14 +1,9 @@
-<div>
+<div class="new-answer">
   <form>
     <div class="form-group">
-      <label for="content">Comment:</label>
-      {{input value=content id="content"}}
+        <label for="user">Your Name:</label> {{input value=user id="user"}}
+      <label for="content">Comment:</label> {{input value=content id="content"}}
     </div>
-
-    <div class="form-group">
-      <label for="user">Name:</label>
-      {{input value=user id="user"}}
-    </div>
-    <button {{action 'saveAnswer'}}>Save</button>
+    <button type="button" class="btn btn-info" {{action 'saveAnswer'}}>Save</button>
   </form>
 </div>

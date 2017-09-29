@@ -2,33 +2,27 @@
   "categories": [{
     "categoryname": "History",
     "author": "Joey Khulu",
-    "question": "The leader of Mali who travelled to Mecca, giving out gold out all along the way was?",
-    "image": "http://vridar.org/wp-content/uploads/2014/02/ancient-historians.gif"
+    "question": "The leader of Mali who travelled to Mecca, giving out gold out all along the way was?"
   }, {
     "categoryname": "Animal",
     "author": "Kim Jones",
-    "question":"An animal that lives part of its life on land and part in water is known as?",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/6/66/Polar_Bear_-_Alaska_%28cropped%29.jpg"
+    "question":"An animal that lives part of its life on land and part in water is known as?"
   }, {
     "categoryname": "Art",
     "author": "Rhonda Williams",
-    "question": "How many paintings did Vincent Van Gogh sell during his lifetime? ",
-    "image": "https://i.pinimg.com/564x/27/ab/73/27ab732d2903d4dc5ab8db9d79338999.jpg"
+    "question": "How many paintings did Vincent Van Gogh sell during his lifetime? "
   }, {
     "categoryname": "Music",
     "author": "Zulu Khale",
-    "question": "'Paint it black' was originally sang by?",
-    "image": "https://i.pinimg.com/564x/43/a2/88/43a288d4f2dbf296e55bfcc3125e6d17.jpg"
+    "question": "'Paint it black' was originally sang by?"
   }, {
     "categoryname": "Sports",
     "author": "Michelle kipng'eo",
-    "question": "Who was the shortest player ever to play in the NBA?",
-    "image": "https://i.pinimg.com/564x/07/76/21/0776219cbfa27a5209b284bb7011ccd7.jpg"
+    "question": "Who was the shortest player ever to play in the NBA?"
   }, {
     "categoryname": "Movie",
     "author": "Mweru Muchai",
-    "question": "In the movie 'The Wizard of OZ', what did the scarecrow want from the wizard?",
-    "image": "http://trivia.fyi/sites/default/files/movie-trivia1.png"
+    "question": "In the movie 'The Wizard of OZ', what did the scarecrow want from the wizard?"
   }],
   "answers":[{
     "content":"Rolling Stones",

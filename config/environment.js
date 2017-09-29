@@ -18,9 +18,9 @@ module.exports = function(environment) {
       }
     },
     firebase: {
-    apiKey: 'AIzaSyDimp4APx6kQHMu9dH4pCM9GFvgiXFfk2g',
-    authDomain: 'message-boards-74547.firebaseapp.com',
-    databaseURL: 'https://message-boards-74547.firebaseio.com',
+    apiKey: 'AIzaSyCbILGuAzBZSFDU3xoLVeGPO_QrVvYGAx0',
+    authDomain: 'message-boards-36118.firebaseapp.com',
+    databaseURL: 'https://message-boards-36118.firebaseio.com',
     storageBucket: '',
   },
 

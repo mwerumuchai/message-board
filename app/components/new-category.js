@@ -7,14 +7,14 @@ export default Ember.Component.extend({
       this.set('addNewCategory', true);
     },
 
-   saveCategory1() {
+   saveCategory() {
      var params = {
-       catergoryname: this.get('catergoryname'),
-       author: this.get('author'),
-       question: this.get('question'),
+       categoryname: this.get('categoryname')? this.get('categoryname'): null,
+       author: this.get('author')? this.get('author'): null,
+       question: this.get('question')? this.get('question'): null
      };
      this.set('addNewCategory', false);
-     this.sendAction('saveCategory2', params);
+     this.sendAction('saveCategory', params);
    }
  }
 });

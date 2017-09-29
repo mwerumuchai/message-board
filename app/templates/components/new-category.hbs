@@ -4,14 +4,14 @@
     <div>
       <form>
         <div class="form-group">
-          <label for="catergoryname">Category</label> {{input value=catergoryname id="catergoryname"}}
+          <label for="categoryname">Category</label> {{input value=categoryname id="categoryname"}}
 
           <label for="user">Author</label> {{input value=author id="author"}}
         </div>
         <div class="form-group">
           <label for="question">Question</label> {{input value=question id="question"}}
         </div>
-        <button type="button" class="btn btn-info" {{action 'saveCategory1'}}>Save</button>
+        <button type="button" class="btn btn-info" {{action 'saveCategory'}}>Save</button>
       </form>
     </div>
   {{else}}

@@ -58,10 +58,10 @@ body {
 }
 
 #row4 {
-  background-color: #000;
+  background-color: #fff;
   height: 150px;
   width: 100%;
-  color: #fff;
+  color: #000;
   border: 1px solid black;
   border-radius: 90px;
   margin-bottom: 10px;

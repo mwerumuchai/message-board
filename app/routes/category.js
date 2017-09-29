@@ -7,14 +7,14 @@ export default Ember.Route.extend({
   actions: {
     update(category, params) {
       Object.keys(params).forEach(function(key) {
-        if(params[key]!==undefined) {
-          category.set(key,params[key]);
+        if (params[key] !== undefined) {
+          category.set(key, params[key]);
         }
       });
       category.save();
       this.transitionTo('');
     },
-      saveAnswer(params) {
+    saveAnswer(params) {
       var newAnswer = this.store.createRecord('answer', params);
       var category = params.category;
       category.get('answers').addObject(newAnswer);
@@ -22,6 +22,10 @@ export default Ember.Route.extend({
         return category.save();
       });
       this.transitionTo('category', category);
+    },
+    destroyAnswer(answer) {
+      answer.destroyRecord();
+      this.transitionTo('category');
     }
   }
 });

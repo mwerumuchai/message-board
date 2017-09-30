@@ -26,6 +26,7 @@
   }],
   "answers":[{
     "content":"Rolling Stones",
-    "user":"Kim Philips"
+    "user":"Kim Philips",
+    "rating": "10"
     }]
 }

@@ -1,4 +1,10 @@
-# message-board
+# Trivia Question and Answer
+      Ember:
+JavaScript: (IP3)
+JavaScript: (IP4)| Continuation
+
+By: Mweru Muchai
+
 
 Welcome to TRIVIA Q&A. Our quizes provide great information and important facts for kids,teens and adults alike. Test your knowledge!!!
 

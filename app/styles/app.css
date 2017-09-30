@@ -14,6 +14,11 @@ body {
   width: 100%;
 }
 
+h2 {
+  text-align: left;
+  position: relative;
+}
+
 #question {
   min-height: 10vh;
   background-color: #fff;
@@ -65,7 +70,18 @@ body {
   border: 1px solid black;
   border-radius: 90px;
   margin-bottom: 10px;
+  text-align: center;
 }
+
+
+/*.row5 {
+  min-height: 10vh;
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 10px 30px 30px 40px;
+  width: 100%;
+  padding-top: 15px;
+}*/
 
 .row6 {
   min-height: 5vh;
@@ -76,17 +92,8 @@ body {
   padding-top: 15px:
 }
 
-.row5 {
-  min-height: 10vh;
-  background-color: #fff;
-  margin-bottom: 10px;
-  padding: 10px 30px 30px 40px;
-  width: 100%;
-  padding-top: 15px:
-}
-
 #qn {
-  color: #f1d5e6;
+  color: #80ff00;
 }
 
 .container-fluid {

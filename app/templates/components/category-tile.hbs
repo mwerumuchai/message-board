@@ -1,8 +1,10 @@
 <div class="container" id="row4">
-  <h2>{{#link-to 'category' category.id}} {{category.categoryname}}{{/link-to}}</h2> by {{category.author}}
-  <ul>
-    <li><h4>{{category.question}}</h4>
-    </li>
-  </ul>
-
+  <h2>{{#link-to 'category' category.id}} {{category.categoryname}}{{/link-to}}</h2><small>by {{category.author}}</small>
 </div>
+<ul>
+  <td>
+    <li>
+      <h4>{{category.question}}</h4>
+    </li>
+  </td>
+</ul>

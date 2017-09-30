@@ -1,7 +1,14 @@
-<div>
+<div class="container">
   <h3 id="row2"><strong>Choose a category:</strong></h3></div>
 {{#each model.categories as |category|}}
-{{category-popularity category}} {{category-tile category=category update="update"}}
-{{/each}}
+<table>
+  <tbody>
+    <td>{{category-popularity category}} {{category-tile category=category update="update"}}
+    </td>
+  </tbody>
+
+  {{/each}}
+</table>
+
 
 {{new-category saveCategory="saveCategory"}}

@@ -1,12 +1,12 @@
 {{#if updateCategoryForm}}
-    <form>
-      <div class="form-group" id="update">
-        <label for="question">Question</label> {{input value=question id="question" placeholder=category.question}}
-        <label for="author">Author</label> {{input value=author id="author" placeholder=category.author}}
-      </div>
+  <form>
+    <div class="form-group" id="update">
+      <label for="question">Question</label> {{input value=question id="question" placeholder=category.question}}
+      <label for="author">Author</label> {{input value=author id="author" placeholder=category.author}}
+    </div>
 
-      <button type="button" class="btn btn-info" {{action 'update' category}}>Save</button>
-    </form>
+    <button type="button" class="btn btn-info" {{action 'update' category}}>Save</button>
+  </form>
 {{else}}
   <button type="button" class="btn btn-info" {{action 'updateCategoryForm'}}>Edit</button>
 {{/if}}

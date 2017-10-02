@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "message-boards-74547"
+    "default": "message-boards-74547",
+    " message-boards-36118": "message-boards-36118",
+    "message-boards-36118": "message-boards-36118"
   }
 }

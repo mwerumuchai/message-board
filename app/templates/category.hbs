@@ -1,13 +1,13 @@
 <h3>{{model.categoryname}}</h3>
 <div class="container" id="question">
-  <ol>
-    <li>
-      <h3>{{model.question}}</h3> <i>by {{model.author}}</i></li>
-  </ol>
+  <h3>{{model.question}}</h3> <i><small>by {{model.author}}</small></i>
+<div class="row7">
   {{update-category category=model update="update"}}
 </div>
+
+</div>
 {{category-detail category=model destroyAnswer="destroyAnswer"}} {{new-answer saveAnswer="saveAnswer" category=model}}
-<div class="container" id="more">
+<div class="container" id="more"> More information:
   <h4>Our quizes provide great information and important facts for kids,teens and adults alike.<br>
   The quizes can be edited or added by various parties. Test your knowledge!!!</h4>
 </div>
